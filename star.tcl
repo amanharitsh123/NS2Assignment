@@ -4,7 +4,7 @@ $ns color 1 Blue
 $ns color 2 Red
 set nf [open out.nam w]
 $ns namtrace-all $nf
-
+set tracefile1 [open out.tr w]
 $ns namtrace-all $nf
 $ns trace-all $tracefile1
 

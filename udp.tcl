@@ -3,6 +3,7 @@ set nf [open out.nam w]
 $ns namtrace-all $nf
 
 $ns namtrace-all $nf
+set tracefile1 [open out.tr w]
 $ns trace-all $tracefile1
 proc finish {} {
 	global ns nf
